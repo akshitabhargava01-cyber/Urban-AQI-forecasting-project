@@ -232,26 +232,6 @@ The Streamlit frontend (`frontend/app.py`) makes HTTP requests to the FastAPI ba
 
 ---
 
-## Submission Checklist
-
-Before submitting, verify:
-
-- [ ] Frontend (`frontend/app.py`) and backend (`backend/main.py`, `backend/train.py`, `backend/data_utils.py`) are in the **same repository**.
-- [ ] The repository is set to **Public** on GitHub.
-- [ ] Open the repository URL in a **private/incognito browser window** to verify anyone can access it without signing in.
-- [ ] The `README.md` contains setup instructions, commands, and project description.
-- [ ] The dataset CSV download link and placement instructions are documented.
-- [ ] `requirements.txt` lists all dependencies.
-- [ ] `.gitignore` excludes virtual environments, caches, and generated model files.
-- [ ] No secrets, API keys, or credentials are in the repository.
-- [ ] No Git submodules or external repository dependencies.
-- [ ] Training can be run with `cd backend && python train.py`.
-- [ ] Backend starts with `cd backend && uvicorn main:app --reload`.
-- [ ] Frontend starts with `cd frontend && streamlit run app.py`.
-- [ ] The Streamlit dashboard shows data, metrics, charts, and predictions.
-
----
-
 ## License
 
 This project is for educational and demonstration purposes.
